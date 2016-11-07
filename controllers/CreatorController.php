@@ -1,4 +1,4 @@
-<?php namespace pceuropa\menu\controllers;
+<?php namespace zacksleo\menu\controllers;
 
 use Yii;
 use yii\web\Response;
