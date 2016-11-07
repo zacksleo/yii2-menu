@@ -17,14 +17,14 @@ Bootstrap Menu Builder for Yii2
  
 ## Installation
 ```
-composer require pceuropa/yii2-menu dev-master
+composer require zacksleo/yii2-menu dev-master
 ```
 
 Add the following code to config file Yii2
 ```php
 'modules' => [
 	'menu' => [
-            'class' => '\pceuropa\menu\Menu',
+            'class' => '\zacksleo\menu\Menu',
         ],
 	]
 ```
@@ -37,7 +37,7 @@ Make sure that you have properly configured `db` application component
 and run the following command:
 
 ```bash
-$ php yii migrate/up --migrationPath=@vendor/pceuropa/yii2-menu/migrations
+$ php yii migrate/up --migrationPath=@vendor/zacksleo/yii2-menu/migrations
 
 ```
 
@@ -45,7 +45,7 @@ $ php yii migrate/up --migrationPath=@vendor/pceuropa/yii2-menu/migrations
 ### 2. Add the following code to config file Yii2
 ```php
 
-use pceuropa\menu\Menu;
+use zacksleo\menu\Menu;
 
 NavBar::begin(['brandLabel' => 'Brand','brandUrl' => Url::home(),]);
 
