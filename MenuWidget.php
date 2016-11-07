@@ -1,5 +1,5 @@
 <?php
-namespace pceuropa\menu;
+namespace zacksleo\menu;
 use yii\base\Widget;
 
 class MenuWidget extends Widget{

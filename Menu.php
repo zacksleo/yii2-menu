@@ -1,12 +1,12 @@
 <?php
-namespace pceuropa\menu;
+namespace zacksleo\menu;
 
 use Yii;
 use yii\helpers\Json;
-use pceuropa\menu\models\Model;
+use zacksleo\menu\models\Model;
 
 class Menu extends \yii\base\Module {
-	public $controllerNamespace = 'pceuropa\menu\controllers';
+	public $controllerNamespace = 'zacksleo\menu\controllers';
 	public $defaultRoute = 'creator';
 
 public function init(){

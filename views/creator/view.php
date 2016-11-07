@@ -1,7 +1,7 @@
 <?php
 use yii\bootstrap\Nav;
 use yii\bootstrap\NavBar;
-use pceuropa\menu\Menu;
+use zacksleo\menu\Menu;
 
 $this->title = Yii::t('app', 'View');
 $this->params['breadcrumbs'][] = ['label' => Yii::t('app', 'Menu'), 'url' => ['index']];

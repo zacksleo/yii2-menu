@@ -1,11 +1,11 @@
 <?php 
-namespace pceuropa\menu\models;
+namespace zacksleo\menu\models;
 
 use Yii;
 class Model extends \yii\db\ActiveRecord {
 
 	public static function tableName() { 
-		return 'menu';
+		return '{{%menu}}';
 	}
 
 

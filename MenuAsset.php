@@ -1,10 +1,10 @@
 <?php 
-namespace pceuropa\menu;
+namespace zacksleo\menu;
 
 use yii\web\AssetBundle;
 
 class MenuAsset extends AssetBundle{
-    public $sourcePath = '@vendor/pceuropa/yii2-menu/assets';
+    public $sourcePath = '@vendor/zacksleo/yii2-menu/assets';
     public $baseUrl = '@web';
     public $js = [
         'js/Sortable.min.js',
